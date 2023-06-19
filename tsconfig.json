@@ -20,9 +20,9 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "types": ["cypress"],
+  "types": ["cypress", "@testing-library/cypress"],
   "include": [
-    "src"
+    "src", "cypress"
   ],
   "references": [
     {
